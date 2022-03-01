@@ -1,6 +1,6 @@
 # makelocal
 
-A tool to prepare websites grabed with wget for local viewing.
+A tool to prepare websites grabbed with wget for local viewing.
 
 ## exapmples
 
@@ -28,8 +28,8 @@ positional arguments:
 
 options:
   -h, --help      show this help message and exit
-  -b, --backup    Backup origninal files, recomemded for first run
-  -o, --original  Used backed up files, recomemeded for later runs
+  -b, --backup    Backup origninal files, recommended for first run
+  -o, --original  Used backed up files, recommended for later runs
   ```
   
   - -b save the original file to \[filename\].bak this is usefull to avoid having to grab a fresh tree if you mess something up or move the files.
