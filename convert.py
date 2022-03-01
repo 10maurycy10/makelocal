@@ -56,7 +56,7 @@ def convert(srcfile, base):
 parser = argparse.ArgumentParser(description = "Convert links in html files for local viewing. file names are read from stdin.")
 parser.add_argument("directory", help="The absolute location of the files.", type=str)
 parser.add_argument("-b", "--backup", help = "Backup origninal files, recomemded for first run", action="store_true")
-parser.add_argument("-o", "--original", help = "Used backedup files, recomemeded for later rust", action="store_true")
+parser.add_argument("-o", "--original", help = "Used backedup files, recomemeded for later runs", action="store_true")
 args = parser.parse_args()
 
 newbase = "file://" + args.directory
